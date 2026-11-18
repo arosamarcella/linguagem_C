@@ -1,0 +1,12 @@
+<====================== PRONTUARIO ======================>
+
+rosa tem 19 anos e um IMC de 20.20 considerado peso normal.
+
+mateus tem 23 anos e um IMC de 18.52 considerado peso normal.
+
+jose tem 40 anos e um IMC de 40.00 considerado obesidade classe III.
+
+sandra tem 49 anos e um IMC de 27.34 considerado excesso de peso.
+
+angra tem 34 anos e um IMC de 24.02 considerado peso normal.
+
