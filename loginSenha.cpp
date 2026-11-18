@@ -19,6 +19,7 @@ main(){
 	verLogin();	
 }
 
+
 // Função para verificar login do usuario
 void verLogin(){
 	char login[20];
@@ -44,7 +45,7 @@ void verSenha(){
 		if(cont == 3){
 		cont = 0;
 		puts("Senha errada 3 vezes! Identifique o usuario novamente.\n");
-		fflush(stdin);
+		fflush(stdin); // limpa o buffer do teclado
 		verLogin();
 		}
 
@@ -53,6 +54,3 @@ void verSenha(){
 			verSenha();
 		}
 }
-
-
-

@@ -41,7 +41,7 @@ main(){
 					break;
 			
 			case 2: 
-					verConta();
+					
 					realizarDeposito();
 					break;
 			
@@ -73,15 +73,20 @@ void consultarSaldo() // 1
 }
 
 void realizarDeposito() // 2
-{
+{	
+	int numConta = 0;
 	system("cls");
+	puts("Para prosseguir digite o numero da conta: ");
+	scanf("%d", &numConta);
 	
-	float valor = 0.0;
-	printf("Digite o valor do DEPOSITO: ");
-	scanf("%f", &valor);
-	saldo = saldo + valor;
+	if(numConta == conta){	
+		float valor = 0.0;
+		printf("Digite o valor do DEPOSITO: ");
+		scanf("%f", &valor);
+		saldo = saldo + valor;
 	
 	consultarSaldo();
+	}
 }
 
 
@@ -105,8 +110,7 @@ void efetuarSaque() // 3
 
 void trocarSenha() // 4
 {	
-	AA = 4;
-	puts("Para proseguir digite sua senha: ");
+	puts("Digite sua senha NOVAMENTE: ");
 	verConta();
 	puts("utyfi");
 	system("cls");
